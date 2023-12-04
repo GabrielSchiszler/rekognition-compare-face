@@ -18,21 +18,21 @@ Antes de executar os scripts, configure suas credenciais da AWS. Você pode faze
 O script create_collection.py cria uma coleção no Amazon Rekognition.
 
 ```bash
-python create_collection.py
+python create-collection.py
 ```
 
 2. Indexar Rostos em uma Coleção
 O script index_faces.py faz upload de uma imagem para o Amazon S3 e indexa os rostos na coleção.
 
 ```bash
-python index_faces.py
+python index-collection.py
 ```
 
 3. Comparar Rostos em uma Coleção
 O script search_faces.py faz upload de uma segunda imagem e compara os rostos com a coleção.
 
 ```bash
-python search_faces.py
+python search-faces-by-image.py
 ```
 
 ### Blog
