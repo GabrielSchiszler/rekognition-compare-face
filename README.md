@@ -1,5 +1,5 @@
 
-# AWS Rekognition Tutorial
+# Implementando Reconhecimento Facial usando Amazon Rekognition
 
 Este repositório contém scripts Python para interagir com o serviço Amazon Rekognition. Cada script realiza uma etapa específica.
 
@@ -11,7 +11,7 @@ Certifique-se de ter o Python instalado em sua máquina. Além disso, instale a 
 pip install boto3
 ```
 
-Configuração do AWS Credentials
+### Configuração do AWS Credentials
 Antes de executar os scripts, configure suas credenciais da AWS. Você pode fazer isso configurando um arquivo ~/.aws/credentials ou exportando variáveis de ambiente. Certifique-se de ter permissões suficientes para usar o serviço Amazon Rekognition.
 
 1. Criar uma Coleção
