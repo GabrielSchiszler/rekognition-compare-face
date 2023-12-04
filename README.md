@@ -15,21 +15,21 @@ pip install boto3
 Antes de executar os scripts, configure suas credenciais da AWS. Você pode fazer isso configurando um arquivo ~/.aws/credentials ou exportando variáveis de ambiente. Certifique-se de ter permissões suficientes para usar o serviço Amazon Rekognition.
 
 1. Criar uma Coleção
-O script create_collection.py cria uma coleção no Amazon Rekognition.
+O script create-collection.py cria uma coleção no Amazon Rekognition.
 
 ```bash
 python create-collection.py
 ```
 
 2. Indexar Rostos em uma Coleção
-O script index_faces.py faz upload de uma imagem para o Amazon S3 e indexa os rostos na coleção.
+O script index-collection.py indexa os rostos de uma foto do bucket s3 na coleção do rekognition.
 
 ```bash
 python index-collection.py
 ```
 
 3. Comparar Rostos em uma Coleção
-O script search_faces.py faz upload de uma segunda imagem e compara os rostos com a coleção.
+O script search-faces-by-image.py compara os rostos de uma fot odo bucket s3 com a coleção do rekognition.
 
 ```bash
 python search-faces-by-image.py
